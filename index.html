@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tictactoe</title>
+    <script src="javascript.js" defer></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body id="body">
+    <div id="header">TIC-TAC-TOE!</div>
+ <div ><button id="selection" onclick="button()">X vs O</button></div>
+    <div id="result"></div>
+
+   
+    <div id="container">
+       
+        <div  id="item1" class="item1" onclick="display(this.id),won()"></div>
+        <div  id="item2" class="item2" onclick="display(this.id),won()"></div>
+        <div  id="item3" class="item3" onclick="display(this.id),won()"></div>
+        <div  id="item4" class="item4" onclick="display(this.id),won()"></div>
+        <div id="item5" class="item5" onclick="display(this.id),won()"></div>
+        <div id="item6" class="item6" onclick="display(this.id),won()"></div>
+        <div id="item7" class="item7" onclick="display(this.id),won()"></div>
+        <div id="item8" class="item8" onclick="display(this.id),won()"></div>
+        <div id="item9" class="item9" onclick="display(this.id),won()"></div>
+
+    </div>
+    <div class="restart"><button onclick="restart()">restart</button></div>
+    
+</body>
+</html>
