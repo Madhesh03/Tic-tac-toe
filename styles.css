@@ -14,16 +14,12 @@
     justify-self: center;
     align-content: center;
     visibility: hidden;
-   
-  
-   
 }
 #container>div{
     border:2px solid rgb(46, 4, 46);
     border-radius: 5px;
     font-size: 60px;
     text-align: center; 
-    
 }
 #container>div:hover{
     background-color:purple;
@@ -40,8 +36,6 @@ body:nth-child(2){
     font-size: 50px;
     color:rgb(201, 19, 201);
     text-shadow: 4px 2px rgba(10, 10, 10, 0.342);
-    
-
 }
 
 button{
